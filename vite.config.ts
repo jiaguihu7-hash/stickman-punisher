@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/stickman-punisher/', 
+      base: '/stickman-punisher/',  // 确保这里是仓库名，后面有斜杠
       server: {
         port: 3000,
         host: '0.0.0.0',
